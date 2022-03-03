@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Mech</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/e85be3055d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="landing">
+            <nav>
+                <div class="nav__container">
+                    <div class="nav__logo--container">
+                    <a href="#" class="logo--text">
+                        <img src="./assets/logo.png" class="logo__img" alt="">NEXT MECH
+                    </a>
+                    </div>
+                    <ul class="nav__links">
+                        <li class="nav__link">
+                            <a href="#" class="link__hover--effect">Home</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#services"class="link__hover--effect">Services</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#commissions"class="link__hover--effect">Commissions</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#contact"class="link__hover--effect">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn__menu" onclick="openMenu()">
+                        <i class="fas fa-bars click"></i>
+                    </button>
+                    <div class="menu__backdrop">
+                        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                            <i class="fas fa-times click close--click"></i>
+                        </button>
+                        <ul class="menu__links">
+                            <li class="menu__list">
+                                <a href="#" class="menu__link click" onclick="closeMenu()" >Home</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#services" class="menu__link click" onclick="closeMenu()">Services</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#commissions" class="menu__link click" onclick="closeMenu()">Commissions</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#contact" class="menu__link click" onclick="closeMenu()">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <header>
+            <div class="header__container">
+                <div class="home--image"></div>
+                <div class="header__description">
+                    <h1 class="header__title">Custom <span class="text--blue">Mechanical Keyboard</span> Build Services.</h1>
+                    <h2 class="header__subtitle">Based in Canberra, Australia.</h2>
+                    <div class="header__links">
+                        <a href="https://www.facebook.com/nextmechkeyboards" target="_blank" class="header__link">
+                            <img src="./assets/fb.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/next.mech" target="_blank" class="header__link">
+                            <img src="./assets/ig.png" alt="">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCPVBcVue4jOfbWM6JRG9McA" target="_blank" class="header__link">
+                            <img src="./assets/yt.png" alt="">
+                        </a>
+                        <a href="https://www.twitch.tv/nextmech/" target="_blank" class="header__link">
+                            <img src="./assets/tw.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </header>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="services__title--wrapper">
+                    <h1 class="services__title"><span class="text--blue">My Services</span></h1>
+                </div>
+                <div class="services">
+                    <div class="service">
+                        <div class="service__img">
+                            <img src="./assets/tools.png" alt="">
+                        </div>
+                        <div class="service__description--wrapper">
+                            <div class="service__title">Assembly</div>
+                            <div class="service__description">Includes soldering, stabiliser lubing, stabiliser modding</div>
+                                <ul class="service__description--list">
+                                    <li>Macropad — $20</li>
+                                    <li>Sub-60% — $25</li>
+                                    <li>60% and 65% — $30</li>
+                                    <li>75% and TKL — $40</li>
+                                    <li>100% and 1800 — $45</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="service">
+                            <div class="service__img">
+                                <img src="./assets/solder.png" alt="">
+                            </div>
+                            <div class="service__description--wrapper">
+                                <div class="service__title">Mill-Max 0305</div>
+                                <div class="service__description">Includes sockets & soldering</div>
+                                    <ul class="service__description--list">
+                                        <li>Macropad — $1.00 per switch</li>
+                                        <li>Sub-60% — $40</li>
+                                        <li>60% and 65% — $50</li>
+                                        <li>75% and TKL — $65</li>
+                                        <li>100% and 1800 — $85</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="service">
+                                <div class="service__img">
+                                    <img src="./assets/pcb.png" alt="">
+                                </div>
+                                <div class="service__description--wrapper">
+                                    <div class="service__title">Mill-Max 7305</div>
+                                    <div class="service__description">Includes sockets & soldering</div>
+                                        <ul class="service__description--list">
+                                            <li>Macropad — $1.20 per switch</li>
+                                            <li>Sub-60% — $55</li>
+                                            <li>60% and 65% — $70</li>
+                                            <li>75% and TKL — $90</li>
+                                            <li>100% and 1800 — $110</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="service">
+                                    <div class="service__img">
+                                        <img src="./assets/assembly.png" alt="">
+                                    </div>
+                                    <div class="service__description--wrapper">
+                                        <div class="service__title">Mill-Max 3305</div>
+                                        <div class="service__description">Includes sockets & soldering</div>
+                                            <ul class="service__description--list">
+                                                <li>Macropad — $1.40 per switch</li>
+                                                <li>Sub-60% — $65</li>
+                                            <li>60% and 65% — $85</li>
+                                        <li>75% and TKL — $105</li>
+                                    <li>100% and 1800 — $130</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__more--info--wrapper">
+                        <ul class="service__more--info--list">
+                            <li>- All prices in AUD</li>
+                            <li>- Mill-Max service is for new (not yet soldered) PCBs only</li>
+                            <li>- Through-hole soldering is an extra $30 per build</li>
+                        </ul>
+                   
+                    <a href="https://docs.google.com/document/d/1nLkebSnjsNTgXIHtkoGQLXE25TcT51bM692Si-pNpds/edit" target="_blank">
+                    <div class="mill-max__link">
+                            <img class="tab__logo" src="./assets/tab.png" alt="">
+                        Mill-Max Guide</div>
+                    </a>
+                </div>
+                </div>
+            </div>
+    </section> 
+
+    <section id="commissions">
+        <div class="container">
+            <div class="row">
+                <div class="commissions__title--wrapper">
+                <h1 class="commissions__title"><span class="text--blue">Commissions</span</h1>
+                </div>
+                    <div class="keyboards">
+                        <div class="keyboard">
+                            <div class="keyboard__wrapper">
+                                <img class="keyboard__img" src="./assets/mb44.jpg" alt="">
+                                <div class="keyboard__description">
+                                    <h3 class="keyboard__description--title">MB-44 with IFK Comfy</h3>
+                                    <ul class="keyboard__description--para">
+                                        <li>Board: MB-44 by MelonBred</li>
+                                        <li>Switches: Cobalt POMs lubed with 205g0 with stock springs</li>
+                                        <li>Keycaps: IFK Comfy</li>
+                                        <li>Plate: FR4</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keyboard">
+                            <div class="keyboard__wrapper">
+                                <img class="keyboard__img" src="./assets/praxisgmkblacklotus.jpg" alt="">
+                                <div class="keyboard__description">
+                                    <h3 class="keyboard__description--title">MB-44 with IFK Comfy</h3>
+                                    <ul class="keyboard__description--para">
+                                        <li>Board: AEBoards x Ivery Praxis R2 E-white</li>
+                                        <li>Switches: Lavender linears lubed with Krytox 205g0 and filmed with Laser Ninja</li>
+                                        <li>0.18mm films, with stock springs</li>
+                                        <li>Keycaps: GMK Black Lotus</li>
+                                        <li>Plate: Polycarbonate</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keyboard">
+                            <div class="keyboard__wrapper">
+                                <img class="keyboard__img" src="./assets/think65gmkcopprt.jpg" alt="">
+                                <div class="keyboard__description">
+                                    <h3 class="keyboard__description--title">Think6.5 V2 with GMK Copper</h3>
+                                    <ul class="keyboard__description--para">
+                                        <li>Board: Graystudio Think6.5 V2 2U Polycarbonate </li>
+                                        <li>Switches: Lavender linears lubed with 205g0 filmed with TX films</li>
+                                        <li>Keycaps: GMK Copper</li>
+                                        <li>Plate: FR4</li>
+                                        <li>Extras: PrimeCaps Al Bumen Verdigris Kiss and Fraktalkaps Copper Naryus</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keyboard">
+                            <div class="keyboard__wrapper">
+                                <img class="keyboard__img" src="./assets/pollen65gmkhennessey.jpg" alt="">
+                                <div class="keyboard__description">
+                                    <h3 class="keyboard__description--title">MB-44 with IFK Comfy</h3>
+                                    <ul class="keyboard__description--para">
+                                        <li>Board: KeyBee Pollen65 Tangerine</li>
+                                        <li>Switches: Everglide Aqua King v2 62g </li>
+                                        <li>Keycaps: GMK Hennessey</li>
+                                        <li>Plate: Brass</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keyboard">
+                            <div class="keyboard__wrapper">
+                                <img class="keyboard__img" src="./assets/hh60gmkmodolight.jpg" alt="">
+                                <div class="keyboard__description">
+                                    <h3 class="keyboard__description--title">HH60 with GMK MoDo Light</h3>
+                                    <ul class="keyboard__description--para">
+                                        <li>Board: Hong Hobbies HH60 prototype 1.1</li>
+                                        <li>PCB: wilba.tech WT60-D Weirdflex with Mill-Max 7305</li>
+                                        <li>Switches: Lilac Linears lubed with 205g0 and filmed with Deskeys white films, spring swapped with TX 65g 14mm springs</li>
+                                        <li>Keycaps: GMK Modern Dolch Light</li>
+                                        <li>Plate: POM cut by CustomKBD</li>
+                                        <li>Extras: PrimeCaps Al Bumen B-1000</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keyboard">
+                            <div class="keyboard__wrapper">
+                                <img class="keyboard__img" src="./assets/mark65jtkraindrop.jpg" alt="">
+                                <div class="keyboard__description">
+                                    <h3 class="keyboard__description--title">Mark:65 with JTK Raindrop</h3>
+                                    <ul class="keyboard__description--para">
+                                        <li>Board: BoardSource The Mark:65 Space Grey</li>
+                                        <li>Switches: Moss Linears lubed with 205g0 filmed with Deskeys white films</li>
+                                        <li>Keycaps: JTK Raindrop</li>
+                                        <li>Plate: FR4</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keyboard">
+                            <div class="keyboard__wrapper">
+                                <img class="keyboard__img" src="./assets/ramakarakatspecimen.jpg" alt="">
+                                <div class="keyboard__description">
+                                    <h3 class="keyboard__description--title">RAMA Kara with KAT Specimen</h3>
+                                    <ul class="keyboard__description--para">
+                                        <li>Board: RAMAWORKS Kara in Soya </li>
+                                        <li>Switches: Dark Amber T1 lubed with Krytox 3203 filmed with Deskeys black films, spring swapped with Sprit 63.5 slow extreme</li>
+                                        <li>Keycaps: KAT Specimen</li>
+                                        <li>Plate: Polycarbonate</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="keyboard">
+                            <div class="keyboard__wrapper">
+                                <img class="keyboard__img" src="./assets/7vgmkcopper.jpg" alt="">
+                                <div class="keyboard__description">
+                                    <h3 class="keyboard__description--title">Gok 7V with GMK Copper</h3>
+                                    <ul class="keyboard__description--para">
+                                        <li>Board: Gok 7V in black</li>
+                                        <li>Switches: Lavender linears lubed with Krytox 205g0 and filmed with Laser Ninja 0.18mm films, with stock springs</li>
+                                        <li>Keycaps: GMK Copper</li>
+                                        <li>Plate: Polycarbonate</li>
+                                        <li>Extras: Brewcaps Pain in Sea of Rust colourway</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="faq--section">
+        <div class="container">
+            <div class="row">
+                <div class="faq__title--wrapper">
+                    <h1 class="faq__title"><span class="text--blue">FAQ</span</h1>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion__item">
+                            <div class="accordion__item--header">What's your Discord account?</div>
+                            <div class="accordion__item--body">
+                                <div class="accordion__item--body--content">
+                                    NextMech#0001
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__item--header">Do I need to provide my own components?</div>
+                            <div class="accordion__item--body">
+                                <div class="accordion__item--body--content">
+                                    Usually you'd provide the components for build services (except Mill-Max sockets), however if you're looking for advice or something unusual feel free to contact me.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__item--header ">How long is the process time?</div>
+                            <div class="accordion__item--body">
+                                <div class="accordion__item--body--content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, cupiditate quod nesciunt id dolorem harum commodi delectus modi cum dignissim.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__item--header ">Do you offer desoldering services?</div>
+                            <div class="accordion__item--body">
+                                <div class="accordion__item--body--content">
+                                   Yes, desoldering is available by request.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__item--header ">Would you stream my build?</div>
+                            <div class="accordion__item--body">
+                                <div class="accordion__item--body--content">
+                                    Yes, I offer reduced service cost for builds streamed on Twitch. Please reach out if you're interested in this.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__item--header ">I have more questions, how else can I contact you?</div>
+                            <div class="accordion__item--body">
+                                <div class="accordion__item--body--content">
+                                   Sure, please fill out the form below.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="footer__row">
+                    <a href="#" class="footer__anchor">&copy; 2022 NEXT MECH</a>
+                </div>
+            </footer>
+</body>
+</html>
