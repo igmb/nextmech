@@ -795,6 +795,10 @@ footer {
         width: 350px;
         font-size: 12px;
     }
+    
+    .keyboard__wrapper {
+        cursor: pointer;
+    }
 
     .keyboard__description {
        width: 290px;
