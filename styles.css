@@ -485,16 +485,16 @@ COMMISSIONS
     z-index: 2;
 }
 
-.keyboard__wrapper:hover .keyboard__wrapper:before {
+.keyboard:hover .keyboard__wrapper:before {
     opacity: 0.8;
 }
 
-.keyboard__wrapper:hover .keyboard__img {
+.keyboard:hover .keyboard__img {
     transform: scale(1.08);
     filter: blur(2px);
 }
 
-.keyboard__wrapper:hover .keyboard__description {
+.keyboard:hover .keyboard__description {
     opacity: 1;
     transform: translateY(-50%);
 }
