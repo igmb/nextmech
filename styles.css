@@ -721,12 +721,12 @@ footer {
         justify-content: center;
     }
 
-    .keyboard:hover .keyboard:active .keyboard__img {
+    .keyboard__wrapper:hover .keyboard:active .keyboard__img {
         transform: scale(1.08);
         filter: blur(2px);
     }
 
-    .keyboard:hover .keyboard:active .keyboard__description {
+    .keyboard__wrapper:hover .keyboard:active .keyboard__description {
         opacity: 1;
         transform: translateY(-50%);
     }
