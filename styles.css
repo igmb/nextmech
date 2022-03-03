@@ -494,7 +494,7 @@ COMMISSIONS
     filter: blur(2px);
 }
 
-.keyboard:hover .keyboard__description {
+.keyboard__wrapper:hover .keyboard__description {
     opacity: 1;
     transform: translateY(-50%);
 }
