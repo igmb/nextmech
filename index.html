@@ -92,7 +92,7 @@
                 <div class="services">
                     <div class="service">
                         <div class="service__img">
-                            <img src="./assets/tools.png" alt="">
+                            <img src="./assets/assemblyy.png" alt="">
                         </div>
                         <div class="service__description--wrapper">
                             <div class="service__title">Assembly</div>
@@ -108,7 +108,7 @@
                         </div>
                         <div class="service">
                             <div class="service__img">
-                                <img src="./assets/solder.png" alt="">
+                                <img src="./assets/0305.png" alt="">
                             </div>
                             <div class="service__description--wrapper">
                                 <div class="service__title">Mill-Max 0305</div>
@@ -124,7 +124,7 @@
                             </div>
                             <div class="service">
                                 <div class="service__img">
-                                    <img src="./assets/pcb.png" alt="">
+                                    <img src="./assets/7305.png" alt="">
                                 </div>
                                 <div class="service__description--wrapper">
                                     <div class="service__title">Mill-Max 7305</div>
@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="service">
                                     <div class="service__img">
-                                        <img src="./assets/assembly.png" alt="">
+                                        <img src="./assets/3305.png" alt="">
                                     </div>
                                     <div class="service__description--wrapper">
                                         <div class="service__title">Mill-Max 3305</div>
@@ -358,6 +358,38 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "107510141690622");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
             </section>
             <footer>
                 <div class="footer__row">
